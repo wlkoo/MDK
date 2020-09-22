@@ -1,0 +1,141 @@
+{
+	"Collection": [
+		"AssetCentralEquipmentIndicators"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "Equipment_Nav",
+			"_Type": "MyEquipment"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "IndicatorInstanceId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IndicatorId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IndicatorInternalId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "IndicatorGroupId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IndicatorGroupInternalId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TemplateId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TemplateInternalId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AggregatedValue",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Trend",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "UoMDescription",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "UpdateTimeStamp",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "AINEquipmentGUID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "EquipId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IndicatorCategory",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IndicatorCategoryDescription",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IndicatorType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "NormalFlag",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MaximumThreshold",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MinimumThreshold",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ThresholdDesc",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IndicatorColorCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IndicatorName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IndicatorDesc",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IndicatorGroupName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IndicatorGroupDesc",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "AssetCentralEquipmentIndicator"
+}

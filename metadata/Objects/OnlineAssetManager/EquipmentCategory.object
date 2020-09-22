@@ -1,0 +1,26 @@
+{
+	"Collection": [
+		"EquipmentCategories"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "MyEquipments_Nav",
+			"_Type": "Collection(MyEquipment)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "EquipCategory",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "EquipCategoryDesc",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"_Name": "EquipmentCategory"
+}

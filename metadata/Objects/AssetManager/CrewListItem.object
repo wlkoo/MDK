@@ -1,0 +1,81 @@
+{
+	"Collection": [
+		"CrewListItems"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "CrewList",
+			"_Type": "CrewList"
+		},
+		{
+			"Key": false,
+			"_Name": "Employee",
+			"_Type": "Employee"
+		},
+		{
+			"Key": false,
+			"_Name": "Fleet",
+			"_Type": "Fleet"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "CrewItemId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CompanyCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CrewId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CrewItemKey",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CrewItemType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Plant",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "RemovalFlag",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CatsHours",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "RemovalTimeStamp",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "WorkDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "CatsUoM",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "CrewListItem"
+}

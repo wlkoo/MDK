@@ -1,0 +1,86 @@
+{
+	"Collection": [
+		"AnswerHeaders"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "AnswerOptions_Nav",
+			"_Type": "Collection(AnswerOption)"
+		},
+		{
+			"Key": false,
+			"_Name": "AssessmentQuestion_Nav",
+			"_Type": "Collection(FormAssessmentQuestion)"
+		},
+		{
+			"Key": false,
+			"_Name": "FormQuestion_Nav",
+			"_Type": "Collection(FormQuestion)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "AnswerId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Client",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DisplayId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "HasDependentObjects",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "LongDescription",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Name",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OrganizationName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AnswerOptionCount",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ShortDescription",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Status",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Type",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "UoM",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"_Name": "AnswerHeader"
+}

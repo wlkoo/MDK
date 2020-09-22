@@ -1,0 +1,49 @@
+{
+	"Collection": [
+		"ZEQ_FORMIO_MEDIA"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "LocalUuid",
+			"_Type": "Edm.Guid"
+		},
+		{
+			"Key": false,
+			"_Name": "Uuid",
+			"_Type": "Edm.Guid"
+		},
+		{
+			"Key": false,
+			"_Name": "ObjectType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ObjectKey",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CreatedBy",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CreatedAt",
+			"_Type": "Edm.DateTimeOffset"
+		},
+		{
+			"Key": false,
+			"_Name": "FormUuid",
+			"_Type": "Edm.Guid"
+		},
+		{
+			"Key": false,
+			"_Name": "FormData",
+			"_Type": "Edm.Binary"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/Formio.service",
+	"_Name": "ZEQ_FORMIO_MEDIA"
+}

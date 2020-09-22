@@ -1,0 +1,29 @@
+{
+	"Collection": [
+		"UsageUoMs"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "UoM",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Dimension",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Description",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ExternalUoM",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "UsageUoM"
+}

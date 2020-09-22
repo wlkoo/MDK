@@ -1,0 +1,336 @@
+{
+	"Collection": [
+		"Fleets"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "CrewListItem",
+			"_Type": "CrewListItem"
+		},
+		{
+			"Key": false,
+			"_Name": "MeasuringPoints",
+			"_Type": "Collection(MeasuringPoint)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": false,
+			"_Name": "VehicleType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ABCIndicator",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Batch",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "BusinessArea",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CRObjectType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CatalogProfile",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "UsagePerConsecNo",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TechnicalIdentNo",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TechnicalObjectType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CostCenter",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ConstructionMonth",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ControllingArea",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CountryOfManufact",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DistributionChannel",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "EquipCategory",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "EquipDivision",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "EquipmentDataExists",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "EquipmentDesc",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Field",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FleetObjectData",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ISU",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "InventoryNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DeleteIndicator",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "LicensePlateNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "LocAcctAssignment",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Location",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MaintenancePlant",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ManufDrawingNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ManufSerialNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ManufactPartNo",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Manufacturer",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ManufacturerVIN",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ModelNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ObjReference",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ConstructionYear",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PlannerGroup",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PlanningPlant",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Plant",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PlantSection",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SalesOrg",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Size",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SortField",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "StorageLocation",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DeliveryDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "MaintenancePlan",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Material",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MeasuringPoint",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SerialNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SettlementOrder",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SubNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SuperOrdEquipment",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "UnitOfWeight",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ValidTo",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "WBSElement",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "WeightOfObject",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": true,
+			"_Name": "EquipmentNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Asset",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ConstructionType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ObjectNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PMDivision",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PMObjectType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PPWorkCenter",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CompanyCode",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"_Name": "Fleet"
+}

@@ -1,0 +1,121 @@
+{
+	"Collection": [
+		"WorkOrderHistories"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "Equipment_Nav",
+			"_Type": "MyEquipment"
+		},
+		{
+			"Key": false,
+			"_Name": "FuncLoc_Nav",
+			"_Type": "MyFunctionalLocation"
+		},
+		{
+			"Key": false,
+			"_Name": "HistoryLongText",
+			"_Type": "WorkOrderHistoryText"
+		},
+		{
+			"Key": false,
+			"_Name": "HistoryPriority",
+			"_Type": "Priority"
+		},
+		{
+			"Key": false,
+			"_Name": "MobileStatus",
+			"_Type": "MobileStatus"
+		},
+		{
+			"Key": false,
+			"_Name": "WorkOrderHeader",
+			"_Type": "MyWorkOrderHeader"
+		}
+	],
+	"Properties": [
+		{
+			"Key": false,
+			"_Name": "PriorityType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "TechObject",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "OrderId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ReferenceWorkOrder",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Equipment",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FunctionalLocation",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ObjectNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OrderDescription",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OrderType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PersonsName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Priority",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PlanningPlant",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ReferenceType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "LongTextExists",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "EndDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "StartDate",
+			"_Type": "Edm.DateTime"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "WorkOrderHistory"
+}

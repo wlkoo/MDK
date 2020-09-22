@@ -1,0 +1,31 @@
+{
+	"Collection": [
+		"AcctIndicators"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "Confirmations",
+			"_Type": "Collection(Confirmation)"
+		},
+		{
+			"Key": false,
+			"_Name": "WOHeaders_Nav",
+			"_Type": "Collection(MyWorkOrderHeader)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "AcctIndicator",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AcctIndicatorDesc",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"_Name": "AcctIndicator"
+}

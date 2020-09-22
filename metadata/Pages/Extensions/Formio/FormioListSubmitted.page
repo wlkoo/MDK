@@ -1,0 +1,56 @@
+{
+	"ActionBar": {
+		"Items": [
+			{
+				"Position": "right",
+				"Icon": "/SAPAssetManager/Rules/Common/Platform/FilterIcon.js",
+				"Text": "$(L,filter)",
+				"OnPress": "/SAPAssetManager/Actions/Extensions/Formio/FormioFilter.action",
+				"Visible": false
+			}
+		]
+	},
+	"Caption": "/SAPAssetManager/Rules/Extensions/Formio/FormioListSubmittedGetCaption.js",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Search":{
+						"Enabled" : true,
+						"Delay": 500,
+						"MinimumCharacterThreshold": 3,
+						"Placeholder": "$(L,search)",
+						"BarcodeScanner": true
+					},
+					"Header": {
+						"UseTopPadding": false
+					},
+					"EmptySection": {
+						"Caption": "No forms submitted"
+					},
+					"ObjectCell": {
+						"AccessoryType": "none",
+						"DetailImageIsCircular": false,
+						"Subhead": "{CreatedBy}",
+						"PreserveIconStackSpacing": true,
+						"StatusText": "/SAPAssetManager/Rules/Extensions/Formio/FormioListGetStatusText.js",
+						"Title": "/SAPAssetManager/Rules/Extensions/Formio/FormioListGetSubmissionDateTime.js",
+						"OnPress": "/SAPAssetManager/Rules/Extensions/Formio/FormioDisplaySetNav.js"
+					},
+					"Target": {
+						"EntitySet": "ZEQ_FORMIODATA_C",
+						"QueryOptions": "/SAPAssetManager/Rules/Extensions/Formio/FormioListSubmittedViewQueryOptions.js",
+						"Service": "/SAPAssetManager/Services/Formio.service"
+					},
+					"Visible": true,
+					"_Name": "SectionObjectTable0",
+					"_Type": "Section.Type.ObjectTable"
+				}
+			],
+			"_Name": "SectionedTable",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "FormioListSubmitted",
+	"_Type": "Page"
+}

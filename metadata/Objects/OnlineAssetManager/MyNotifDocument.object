@@ -1,0 +1,41 @@
+{
+	"Collection": [
+		"MyNotifDocuments"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "Document",
+			"_Type": "Document"
+		},
+		{
+			"Key": false,
+			"_Name": "NotifHeader",
+			"_Type": "MyNotificationHeader"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "ObjectKey",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "RelationshipID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DocumentID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "NotificationNumber",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"_Name": "MyNotifDocument"
+}

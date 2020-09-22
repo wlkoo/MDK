@@ -1,0 +1,66 @@
+{
+	"Collection": [
+		"ClassCharacteristicValues"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "CharValCode_Nav",
+			"_Type": "CharValueCode"
+		},
+		{
+			"Key": false,
+			"_Name": "Characteristic",
+			"_Type": "Characteristic"
+		}
+	],
+	"Properties": [
+		{
+			"Key": false,
+			"_Name": "CharValueDescr",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "CharId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "CharValCounter",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "IntCounter",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CharValue",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "UoM",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ValueRel",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CharValFrom",
+			"_Type": "Edm.Double"
+		},
+		{
+			"Key": false,
+			"_Name": "CharValTo",
+			"_Type": "Edm.Double"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"_Name": "ClassCharacteristicValue"
+}

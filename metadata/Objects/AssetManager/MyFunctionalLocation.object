@@ -1,0 +1,291 @@
+{
+	"Collection": [
+		"MyFunctionalLocations"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "Address",
+			"_Type": "Address"
+		},
+		{
+			"Key": false,
+			"_Name": "ClassCharValues",
+			"_Type": "Collection(MyFuncLocClassCharValue)"
+		},
+		{
+			"Key": false,
+			"_Name": "Classes",
+			"_Type": "Collection(MyFuncLocClass)"
+		},
+		{
+			"Key": false,
+			"_Name": "Equipments",
+			"_Type": "Collection(MyEquipment)"
+		},
+		{
+			"Key": false,
+			"_Name": "FuncLocCategory_Nav",
+			"_Type": "FuncLocCategory"
+		},
+		{
+			"Key": false,
+			"_Name": "FuncLocDocuments",
+			"_Type": "Collection(MyFuncLocDocument)"
+		},
+		{
+			"Key": false,
+			"_Name": "FuncLocGeometries",
+			"_Type": "Collection(MyFuncLocGeometry)"
+		},
+		{
+			"Key": false,
+			"_Name": "Location_Nav",
+			"_Type": "Location"
+		},
+		{
+			"Key": false,
+			"_Name": "MeasuringPoints",
+			"_Type": "Collection(MeasuringPoint)"
+		},
+		{
+			"Key": false,
+			"_Name": "NotifHistory_Nav",
+			"_Type": "Collection(NotificationHistory)"
+		},
+		{
+			"Key": false,
+			"_Name": "NotificationHeader",
+			"_Type": "Collection(MyNotificationHeader)"
+		},
+		{
+			"Key": false,
+			"_Name": "NotificationItem",
+			"_Type": "Collection(MyNotificationItem)"
+		},
+		{
+			"Key": false,
+			"_Name": "ObjectStatus_Nav",
+			"_Type": "MyFuncLocObjectStatus"
+		},
+		{
+			"Key": false,
+			"_Name": "Partners",
+			"_Type": "Collection(MyFuncLocPartner)"
+		},
+		{
+			"Key": false,
+			"_Name": "RelatedWOHistory",
+			"_Type": "Collection(WorkOrderHistory)"
+		},
+		{
+			"Key": false,
+			"_Name": "RouteStops",
+			"_Type": "Collection(MyRouteStop)"
+		},
+		{
+			"Key": false,
+			"_Name": "RouteTechObjects",
+			"_Type": "Collection(MyTechObject)"
+		},
+		{
+			"Key": false,
+			"_Name": "SystemStatuses_Nav",
+			"_Type": "Collection(MyFuncLocSystemStatus)"
+		},
+		{
+			"Key": false,
+			"_Name": "UserStatuses_Nav",
+			"_Type": "Collection(MyFuncLocUserStatus)"
+		},
+		{
+			"Key": false,
+			"_Name": "WorkCenter_Main_Nav",
+			"_Type": "WorkCenter"
+		},
+		{
+			"Key": false,
+			"_Name": "WorkCenter_Nav",
+			"_Type": "WorkCenter"
+		},
+		{
+			"Key": false,
+			"_Name": "WorkOrderHeader",
+			"_Type": "Collection(MyWorkOrderHeader)"
+		},
+		{
+			"Key": false,
+			"_Name": "WorkOrderOperation",
+			"_Type": "Collection(MyWorkOrderOperation)"
+		},
+		{
+			"Key": false,
+			"_Name": "WorkOrderSubOperation",
+			"_Type": "Collection(MyWorkOrderSubOperation)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": false,
+			"_Name": "FuncLocId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AuthorizationGroup",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "WorkCenter",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PMObjectType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CRObjectType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MaintWorkCenter",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SuperiorFuncLocInternId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Room",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Section",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Manufacturer",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ModelNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PartNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SerialNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "InventoryNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SuperiorFuncLoc",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PlanningPlant",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "FuncLocIdIntern",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FuncLocType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MasterLanguage",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "EquipAllowed",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CatalogProfile",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "LocAssignment",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ObjectNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "EquipType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MaintPlant",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "BusinessArea",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ControllingArea",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CompanyCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FuncLocDesc",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AddressNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Location",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SingleInstall",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "MyFunctionalLocation"
+}

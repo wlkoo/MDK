@@ -1,0 +1,181 @@
+{
+	"Collection": [
+		"Confirmations"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "AcctIndicator",
+			"_Type": "AcctIndicator"
+		},
+		{
+			"Key": false,
+			"_Name": "ConfirmationOverview",
+			"_Type": "ConfirmationOverviewRow"
+		},
+		{
+			"Key": false,
+			"_Name": "LongText",
+			"_Type": "Collection(ConfirmationLongText)"
+		},
+		{
+			"Key": false,
+			"_Name": "Variance",
+			"_Type": "VarianceReason"
+		},
+		{
+			"Key": false,
+			"_Name": "WorkOrderHeader",
+			"_Type": "MyWorkOrderHeader"
+		},
+		{
+			"Key": false,
+			"_Name": "WorkOrderOperation",
+			"_Type": "MyWorkOrderOperation"
+		},
+		{
+			"Key": false,
+			"_Name": "WorkOrderSubOperation",
+			"_Type": "MyWorkOrderSubOperation"
+		}
+	],
+	"Properties": [
+		{
+			"Key": false,
+			"_Name": "OrderType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "ConfirmationCounter",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "ConfirmationNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AccountingIndicator",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ActivityType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ActualDurationUOM",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ActualWorkUOM",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ActualDuration",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "StartTime",
+			"_Type": "Edm.Time"
+		},
+		{
+			"Key": false,
+			"_Name": "PostingDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "VarianceReason",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SubOperation",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ReverseIndicator",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Plant",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ActualWork",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "CreatedDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "CreatedTime",
+			"_Type": "Edm.Time"
+		},
+		{
+			"Key": false,
+			"_Name": "FinishDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "FinishTime",
+			"_Type": "Edm.Time"
+		},
+		{
+			"Key": false,
+			"_Name": "StartDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "CompleteFlag",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CreatedBy",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Description",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FinalConfirmation",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PersonnelNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OrderID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Operation",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "Confirmation"
+}

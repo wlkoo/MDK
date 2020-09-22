@@ -1,0 +1,41 @@
+{
+	"Collection": [
+		"CharValueCodes"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "ClassCharValCode_Nav",
+			"_Type": "Collection(ClassCharacteristicValue)"
+		},
+		{
+			"Key": false,
+			"_Name": "EquipCharValCode_Nav",
+			"_Type": "Collection(MyEquipClassCharValue)"
+		},
+		{
+			"Key": false,
+			"_Name": "FuncLocCharValCode_Nav",
+			"_Type": "Collection(MyFuncLocClassCharValue)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "ValueRel",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ValueCode1",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ValueCode2",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"_Name": "CharValueCode"
+}

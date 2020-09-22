@@ -1,0 +1,26 @@
+{
+	"Collection": [
+		"PRTCategories"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "MyWorkOrderTools_Nav",
+			"_Type": "Collection(MyWorkOrderTool)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "PRTCategory",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PRTCategoryDesc",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"_Name": "PRTCategory"
+}

@@ -1,0 +1,36 @@
+{
+	"Collection": [
+		"SAPUsers"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "AddressAtWork_Nav",
+			"_Type": "AddressAtWork"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "UserId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "UserName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AddressNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PersonNum",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"_Name": "SAPUser"
+}

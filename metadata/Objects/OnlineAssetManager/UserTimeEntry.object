@@ -1,0 +1,56 @@
+{
+	"Collection": [
+		"UserTimeEntries"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "MyWOHeader",
+			"_Type": "MyWorkOrderHeader"
+		},
+		{
+			"Key": false,
+			"_Name": "MyWOOperation",
+			"_Type": "MyWorkOrderOperation"
+		}
+	],
+	"Properties": [
+		{
+			"Key": false,
+			"_Name": "UserGUID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "RecordId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PreferenceValue",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PreferenceName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PreferenceGroup",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "OperationNo",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "OrderId",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"_Name": "UserTimeEntry"
+}

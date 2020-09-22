@@ -1,0 +1,24 @@
+{
+	"Collection": [
+		"ZEQL_C_FORMIO_SDATA"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "Uuid",
+			"_Type": "Edm.Guid"
+		},
+		{
+			"Key": true,
+			"_Name": "LocalUuid",
+			"_Type": "Edm.Guid"
+		},
+		{
+			"Key": false,
+			"_Name": "FormData",
+			"_Type": "Edm.Binary"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/Formio.service",
+	"_Name": "ZEQL_C_FORMIO_SDATAType"
+}

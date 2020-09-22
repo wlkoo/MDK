@@ -1,0 +1,34 @@
+{
+	"Collection": [
+		"ZEQL_C_FORMIO_VH"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "FormUuid",
+			"_Type": "Edm.Guid"
+		},
+		{
+			"Key": false,
+			"_Name": "MasterFormUuid",
+			"_Type": "Edm.Guid"
+		},
+		{
+			"Key": false,
+			"_Name": "Name",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Version",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ObjectType",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/Formio.service",
+	"_Name": "ZEQL_C_FORMIO_VHType"
+}

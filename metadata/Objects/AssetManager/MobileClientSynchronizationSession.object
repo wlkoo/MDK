@@ -1,0 +1,34 @@
+{
+	"Collection": [
+		"MobileClientSynchronizationSessions"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "SessionGUID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "UserGUID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SessionBeginTimeStamp",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "SessionCloseTimeStamp",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "CreatedBy",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "MobileClientSynchronizationSession"
+}

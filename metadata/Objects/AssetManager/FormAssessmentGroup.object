@@ -1,0 +1,46 @@
+{
+	"Collection": [
+		"FormAssessmentGroups"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "FormBusObjects_Nav",
+			"_Type": "FormBusObject"
+		},
+		{
+			"Key": false,
+			"_Name": "FormGroup_Nav",
+			"_Type": "FormGroup"
+		},
+		{
+			"Key": false,
+			"_Name": "Questions_Nav",
+			"_Type": "Collection(FormAssessmentQuestion)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": false,
+			"_Name": "SortNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "AssessmentId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "GroupId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DisplayId",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "FormAssessmentGroup"
+}

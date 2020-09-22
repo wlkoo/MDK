@@ -1,0 +1,66 @@
+{
+	"Collection": [
+		"MyTechObjects"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "Equip",
+			"_Type": "MyEquipment"
+		},
+		{
+			"Key": false,
+			"_Name": "FuncLoc",
+			"_Type": "MyFunctionalLocation"
+		},
+		{
+			"Key": false,
+			"_Name": "Operation",
+			"_Type": "MyWorkOrderOperation"
+		},
+		{
+			"Key": false,
+			"_Name": "Points",
+			"_Type": "Collection(MyRoutePoint)"
+		},
+		{
+			"Key": false,
+			"_Name": "Stops",
+			"_Type": "MyRouteStop"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "FuncLocID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "Equipment",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "StopID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "RouteID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "EquipDesc",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FuncLocDesc",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"_Name": "MyTechObject"
+}

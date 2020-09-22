@@ -1,0 +1,54 @@
+{
+	"Caption": "$(L,form_title)",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Layout": {
+						"MinimumInteritemSpacing": 66,
+						"NumberOfColumns": 1
+					},
+					"SimplePropertyCells": [
+						{
+							"SimplePropertyCell": {
+								"AccessoryType": "disclosureIndicator",
+								"KeyName": "$(L,form_create_submission)",
+								"Visible": true,
+                                "OnPress": "/SAPAssetManager/Rules/Extensions/Formio/FormioCreateSetNav.js"
+							}
+						},
+						{
+							"SimplePropertyCell": {
+								"AccessoryType": "disclosureIndicator",
+								"KeyName": "$(L,form_view_submission)",
+								"Value" : "/SAPAssetManager/Rules/Extensions/Formio/FormioLandingViewSubmissionCount.js",
+								"Visible": "/SAPAssetManager/Rules/Extensions/Formio/FormioLandingViewSubmissionVisible.js",
+                                "OnPress": "/SAPAssetManager/Actions/Extensions/Formio/FormioListSubmittedNav.action"
+							}
+						},
+						{
+							"SimplePropertyCell": {
+								"AccessoryType": "disclosureIndicator",
+								"KeyName": "$(L,form_view_pending_submission)",
+								"Value" : "/SAPAssetManager/Rules/Extensions/Formio/FormioLandingViewPendingSubmissionCount.js",
+								"Visible": "/SAPAssetManager/Rules/Extensions/Formio/FormioLandingViewPendingSubmissionVisible.js",
+                                "OnPress": "/SAPAssetManager/Rules/Extensions/Formio/FormioListPendingSetNav.js"
+							}
+						}
+					],
+					"Visible": true,
+					"_Name": "SectionSimplePropertyCollection1",
+					"_Type": "Section.Type.SimplePropertyCollection"
+				}
+			],
+			"_Name": "SectionedTable",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "FormioLandingPage",
+	"OnReturning": "/SAPAssetManager/Rules/Extensions/Formio/FormioLandingOnReturning.js",
+	"_Type": "Page"
+}

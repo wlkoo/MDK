@@ -1,0 +1,26 @@
+{
+	"Collection": [
+		"FuncLocCategories"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "MyFunctionalLocations_Nav",
+			"_Type": "Collection(MyFunctionalLocation)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "FuncLocCategory",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FuncLocCategoryDesc",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"_Name": "FuncLocCategory"
+}

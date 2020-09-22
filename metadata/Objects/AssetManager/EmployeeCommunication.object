@@ -1,0 +1,36 @@
+{
+	"Collection": [
+		"EmployeeCommunications"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "Employee_Nav",
+			"_Type": "Employee"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "PersonnelNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "CommunicationType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Value",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "SequenceNum",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "EmployeeCommunication"
+}

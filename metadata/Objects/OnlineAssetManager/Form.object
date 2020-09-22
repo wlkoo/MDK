@@ -1,0 +1,101 @@
+{
+	"Collection": [
+		"Forms"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "Assessments_Nav",
+			"_Type": "Collection(ObjectFormAssessment)"
+		},
+		{
+			"Key": false,
+			"_Name": "BusinessObjects_Nav",
+			"_Type": "Collection(FormBusObject)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": false,
+			"_Name": "MobileStatus",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "FormId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Client",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CreatedOn",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "DisplayId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "LongDescription",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MatrixDisplayID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ObjectCount",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Ownership",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ShortDescription",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Source",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Status",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "StatusText",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Type",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TypeDescription",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "UpdatedOn",
+			"_Type": "Edm.DateTime"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"_Name": "Form"
+}

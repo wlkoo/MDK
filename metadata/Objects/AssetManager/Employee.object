@@ -1,0 +1,106 @@
+{
+	"Collection": [
+		"Employees"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "CatsTimesheet",
+			"_Type": "Collection(CatsTimesheet)"
+		},
+		{
+			"Key": false,
+			"_Name": "Confirmations",
+			"_Type": "Collection(Confirmation)"
+		},
+		{
+			"Key": false,
+			"_Name": "CrewListItem",
+			"_Type": "Collection(CrewListItem)"
+		},
+		{
+			"Key": false,
+			"_Name": "EmployeeAddress_Nav",
+			"_Type": "Collection(EmployeeAddress)"
+		},
+		{
+			"Key": false,
+			"_Name": "EmployeeCommunications_Nav",
+			"_Type": "Collection(EmployeeCommunication)"
+		},
+		{
+			"Key": false,
+			"_Name": "MyEquipPartners_Nav",
+			"_Type": "Collection(MyEquipPartner)"
+		},
+		{
+			"Key": false,
+			"_Name": "MyFuncLocPartners_Nav",
+			"_Type": "Collection(MyFuncLocPartner)"
+		},
+		{
+			"Key": false,
+			"_Name": "MyNotifPartners_Nav",
+			"_Type": "Collection(MyNotificationPartner)"
+		},
+		{
+			"Key": false,
+			"_Name": "MyWorkOrderPartners_Nav",
+			"_Type": "Collection(MyWorkOrderPartner)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "PersonnelNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "UserID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "EndDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "StartDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "PartnerNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FirstName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ControllingArea",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "EmployeeName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "LastName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PersonnelArea",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "Employee"
+}

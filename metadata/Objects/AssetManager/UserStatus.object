@@ -1,0 +1,46 @@
+{
+	"Collection": [
+		"UserStatuses"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "MyEquipUserStatuses_Nav",
+			"_Type": "Collection(MyEquipUserStatus)"
+		},
+		{
+			"Key": false,
+			"_Name": "MyFuncLocUserStatuses_Nav",
+			"_Type": "Collection(MyFuncLocUserStatus)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": false,
+			"_Name": "Status",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "StatusText",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "StatusProfile",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "UserStatus",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Language",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "UserStatus"
+}

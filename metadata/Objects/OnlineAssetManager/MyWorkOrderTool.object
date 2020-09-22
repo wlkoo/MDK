@@ -1,0 +1,171 @@
+{
+	"Collection": [
+		"MyWorkOrderTools"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "PRTDocument",
+			"_Type": "Document"
+		},
+		{
+			"Key": false,
+			"_Name": "PRTEquipment",
+			"_Type": "MyEquipment"
+		},
+		{
+			"Key": false,
+			"_Name": "PRTMaterial",
+			"_Type": "Material"
+		},
+		{
+			"Key": false,
+			"_Name": "PRTPoint",
+			"_Type": "MeasuringPoint"
+		},
+		{
+			"Key": false,
+			"_Name": "WOOperation_Nav",
+			"_Type": "MyWorkOrderOperation"
+		}
+	],
+	"Properties": [
+		{
+			"Key": false,
+			"_Name": "DocumentID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ItemNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "OrderId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "OperationNo",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "ItemCounter",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ObjectType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ObjectId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ObjectNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PRTCategory",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PRTNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PRTPlant",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PRTTool",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DocumentType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DocumentVersion",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DocumentPart",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Equipment",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Description",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Material",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Duration",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "QuantityUOM",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Point",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Quantity",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "ControlKey",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PRTText",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "UsageUOM",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "UsageValue",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "DocumentNumber",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"_Name": "MyWorkOrderTool"
+}

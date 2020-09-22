@@ -1,0 +1,26 @@
+{
+	"Collection": [
+		"EquipObjectTypes"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "MyEquipments_Nav",
+			"_Type": "Collection(MyEquipment)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "ObjectType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ObjectTypeDesc",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "EquipObjectType"
+}

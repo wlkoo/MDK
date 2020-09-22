@@ -1,0 +1,61 @@
+{
+	"Collection": [
+		"MyFuncLocUserStatuses"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "FunctionalLocation_Nav",
+			"_Type": "MyFunctionalLocation"
+		},
+		{
+			"Key": false,
+			"_Name": "UserStatus_Nav",
+			"_Type": "UserStatus"
+		}
+	],
+	"Properties": [
+		{
+			"Key": false,
+			"_Name": "StatusInact",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FuncLocIdIntern",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "Status",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "StatusProfile",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SequencePosition",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SequencePriority",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "StatusNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "ObjectNum",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "MyFuncLocUserStatus"
+}

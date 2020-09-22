@@ -1,0 +1,86 @@
+{
+	"Collection": [
+		"MyEquipClassCharValues"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "CharValCode_Nav",
+			"_Type": "CharValueCode"
+		},
+		{
+			"Key": false,
+			"_Name": "Characteristic",
+			"_Type": "Characteristic"
+		},
+		{
+			"Key": false,
+			"_Name": "Equipment",
+			"_Type": "MyEquipment"
+		}
+	],
+	"Properties": [
+		{
+			"Key": false,
+			"_Name": "ValueRel",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CharValue",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "CharId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "CharValCounter",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "ClassType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "InternCounter",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "ObjClassFlag",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "ObjectKey",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CharValDesc",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "EquipId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CharValFrom",
+			"_Type": "Edm.Double"
+		},
+		{
+			"Key": false,
+			"_Name": "CharValTo",
+			"_Type": "Edm.Double"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"_Name": "MyEquipClassCharValue"
+}

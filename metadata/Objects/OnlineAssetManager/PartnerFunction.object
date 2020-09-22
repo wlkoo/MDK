@@ -1,0 +1,56 @@
+{
+	"Collection": [
+		"PartnerFunctions"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "MyEquipPartner_Nav",
+			"_Type": "Collection(MyEquipPartner)"
+		},
+		{
+			"Key": false,
+			"_Name": "MyFuncLocPartner_Nav",
+			"_Type": "Collection(MyFuncLocPartner)"
+		},
+		{
+			"Key": false,
+			"_Name": "MyNotifPartner_Nav",
+			"_Type": "Collection(MyNotificationPartner)"
+		},
+		{
+			"Key": false,
+			"_Name": "MyWorkOrderPartner_Nav",
+			"_Type": "Collection(MyWorkOrderPartner)"
+		},
+		{
+			"Key": false,
+			"_Name": "NotifPartnerDetProc_Nav",
+			"_Type": "Collection(NotifPartnerDetProc)"
+		},
+		{
+			"Key": false,
+			"_Name": "PartnerDetProc_Nav",
+			"_Type": "Collection(PartnerDetProc)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": false,
+			"_Name": "PartnerType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Description",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "PartnerFunction",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"_Name": "PartnerFunction"
+}

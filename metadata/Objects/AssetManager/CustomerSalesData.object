@@ -1,0 +1,46 @@
+{
+	"Collection": [
+		"CustomerSalesData"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "Customer_Nav",
+			"_Type": "Customer"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "Division",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "Customer",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IncoTerms",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IncotermsPart2",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "SalesOrg",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "DistributionChannel",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "CustomerSalesData"
+}

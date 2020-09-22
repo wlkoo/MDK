@@ -1,0 +1,9 @@
+{
+	"ActionResult": {
+		"_Name": "result"
+	},
+	"OnFailure": "/SAPAssetManager/Rules/Sync/OnUploadFailureFormio.js",
+	"OnSuccess": "/SAPAssetManager/Actions/Extensions/Formio/DownloadFormioOData.action",
+	"Service": "/SAPAssetManager/Services/Formio.service",
+	"_Type": "Action.Type.OfflineOData.Upload"
+}

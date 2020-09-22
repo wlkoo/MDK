@@ -1,0 +1,26 @@
+{
+	"Collection": [
+		"OrderTypePartners"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "OrderType_Nav",
+			"_Type": "Collection(OrderType)"
+		},
+		{
+			"Key": false,
+			"_Name": "PartnerDetProc_Nav",
+			"_Type": "Collection(PartnerDetProc)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "OrderType",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "OrderTypePartner"
+}

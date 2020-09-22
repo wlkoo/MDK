@@ -1,0 +1,54 @@
+{
+	"Collection": [
+		"ZEQ_FORMIODATA_C"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "Uuid",
+			"_Type": "Edm.Guid"
+		},
+		{
+			"Key": true,
+			"_Name": "ObjectType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "ObjectKey",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CreatedBy",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CreatedAt",
+			"_Type": "Edm.DateTimeOffset"
+		},
+		{
+			"Key": false,
+			"_Name": "ChangedBy",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ChangedAt",
+			"_Type": "Edm.DateTimeOffset"
+		},
+		{
+			"Key": false,
+			"_Name": "FormUuid",
+			"_Type": "Edm.Guid"
+		},
+		{
+			"Key": false,
+			"_Name": "FormData",
+			"_Type": "Edm.Binary"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/Formio.service",
+	"_Name": "ZEQ_FORMIODATA_CType"
+}

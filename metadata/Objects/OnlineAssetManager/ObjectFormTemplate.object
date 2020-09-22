@@ -1,0 +1,36 @@
+{
+	"Collection": [
+		"ObjectFormTemplates"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "FormCategory_Nav",
+			"_Type": "ObjectFormCategory"
+		},
+		{
+			"Key": false,
+			"_Name": "TemplateHeader_Nav",
+			"_Type": "FormTemplateHeader"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "ObjectId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "FormCategory",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "TemplateId",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"_Name": "ObjectFormTemplate"
+}

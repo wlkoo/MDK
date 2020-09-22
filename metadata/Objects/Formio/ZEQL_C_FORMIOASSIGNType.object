@@ -1,0 +1,71 @@
+{
+	"Collection": [
+		"ZEQL_C_FORMIOASSIGN"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "to_VersionValueHelp",
+			"_Type": "Collection(ZEQL_C_FORMIO_VERSION_VHType)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "Uuid",
+			"_Type": "Edm.Guid"
+		},
+		{
+			"Key": false,
+			"_Name": "ObjectType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ObjectKey",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FormUuid",
+			"_Type": "Edm.Guid"
+		},
+		{
+			"Key": false,
+			"_Name": "Version",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Name",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FormData",
+			"_Type": "Edm.Binary"
+		},
+		{
+			"Key": false,
+			"_Name": "CreatedBy",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CreatedAt",
+			"_Type": "Edm.DateTimeOffset"
+		},
+		{
+			"Key": false,
+			"_Name": "ChangedBy",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ChangedAt",
+			"_Type": "Edm.DateTimeOffset"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/Formio.service",
+	"_Name": "ZEQL_C_FORMIOASSIGNType"
+}

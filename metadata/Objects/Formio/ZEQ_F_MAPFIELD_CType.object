@@ -1,0 +1,24 @@
+{
+	"Collection": [
+		"ZEQ_F_MAPFIELD_C"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "ObjectType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "FieldName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FieldText",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/Formio.service",
+	"_Name": "ZEQ_F_MAPFIELD_CType"
+}

@@ -1,0 +1,51 @@
+{
+	"Collection": [
+		"Countries"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "Addresses_Nav",
+			"_Type": "Collection(Address)"
+		},
+		{
+			"Key": false,
+			"_Name": "Regions_Nav",
+			"_Type": "Collection(Region)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "Country",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Description",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PostalCodeLength",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DialingCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PostalCodeMask",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PostalCodeMask2",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"_Name": "Country"
+}

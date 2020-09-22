@@ -1,0 +1,7 @@
+{
+	"AppId": "com.rizing.sam40.eql",
+	"DestinationName": "DEST_SAM40_PPROP_EQL",
+	"LanguageURLParam": "sap-language",
+	"OfflineEnabled": true,
+	"ServiceUrl": "/destinations/mobileservices"
+}

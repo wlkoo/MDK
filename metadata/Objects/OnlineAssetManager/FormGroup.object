@@ -1,0 +1,66 @@
+{
+	"Collection": [
+		"FormGroups"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "AssessmentGroup_Nav",
+			"_Type": "Collection(FormAssessmentGroup)"
+		},
+		{
+			"Key": false,
+			"_Name": "AssessmentQuestion_Nav",
+			"_Type": "Collection(FormAssessmentQuestion)"
+		},
+		{
+			"Key": false,
+			"_Name": "TemplateGroups_Nav",
+			"_Type": "Collection(FormTemplateGroup)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "GroupId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DisplayId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "HasDependentObjects",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ImageURL",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "LongDescription",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OrganizationName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ShortDescription",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Status",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"_Name": "FormGroup"
+}

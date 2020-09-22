@@ -1,0 +1,31 @@
+{
+	"Collection": [
+		"VendorsCompanyData"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "Vendor_Nav",
+			"_Type": "Vendor"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "CompanyCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "Vendor",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CompanyBlock",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "VendorCompanyData"
+}

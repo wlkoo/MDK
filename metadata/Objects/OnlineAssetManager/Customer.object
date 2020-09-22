@@ -1,0 +1,56 @@
+{
+	"Collection": [
+		"Customers"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "Address_Nav",
+			"_Type": "Address"
+		},
+		{
+			"Key": false,
+			"_Name": "CustomerSalesData_Nav",
+			"_Type": "Collection(CustomerSalesData)"
+		},
+		{
+			"Key": false,
+			"_Name": "NotifSales_Nav",
+			"_Type": "Collection(MyNotificationSales)"
+		},
+		{
+			"Key": false,
+			"_Name": "WOSales_Nav",
+			"_Type": "Collection(MyWorkOrderSales)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": false,
+			"_Name": "CustomerAccountGroup",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PartnerNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "Customer",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Name1",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AddressNum",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"_Name": "Customer"
+}

@@ -1,0 +1,13 @@
+{
+    "PopoverItems": 
+      [{
+           "Title": "$(L,form_save_submission)",
+           "OnPress": "/SAPAssetManager/Rules/Extensions/Formio/FormioRendererSave.js"
+       },
+       {
+           "Title": "$(L,discard)",
+           "OnPress": "/SAPAssetManager/Rules/Extensions/Formio/FormioUndoMedia.js"
+       }
+      ],
+      "_Type": "Action.Type.PopoverMenu"
+  }

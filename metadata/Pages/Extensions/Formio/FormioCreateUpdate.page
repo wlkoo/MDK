@@ -1,0 +1,38 @@
+{
+	"Caption": "$(L,form_title)",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"AllowEmptySelection": true,
+							"AllowMultipleSelection": false,
+							"Caption": "Choose a Form",
+							"IsEditable": true,
+							"IsPickerDismissedOnSelection": true,
+							"IsVisible": true,
+							"OnValueChange": "/SAPAssetManager/Rules/Extensions/Formio/FormioRendererSetNav.js",
+							"PickerItems": "/SAPAssetManager/Rules/Extensions/Formio/FormioCreateUpdateControlsPickerItems.js",
+							"PickerPrompt": "Please select one single form",
+							"Search": {
+								"Enabled": true
+							},
+							"Value": "{Uuid}",
+							"_Name": "FormSelector",
+							"_Type": "Control.Type.FormCell.ListPicker"
+						}
+					],
+					"Target": "",
+					"Visible": true
+				}
+			],
+			"Target": "",
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"Target": "",
+	"_Name": "FormioCreateUpdate",
+	"_Type": "Page"
+}

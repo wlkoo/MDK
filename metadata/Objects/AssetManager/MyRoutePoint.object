@@ -1,0 +1,66 @@
+{
+	"Collection": [
+		"MyRoutePoints"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "MeasuringPoint",
+			"_Type": "MeasuringPoint"
+		},
+		{
+			"Key": false,
+			"_Name": "Stops",
+			"_Type": "MyRouteStop"
+		},
+		{
+			"Key": false,
+			"_Name": "TechObject",
+			"_Type": "MyTechObject"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "RouteID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "StopID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Obligated",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PRTPoint",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SequenceNum",
+			"_Type": "Edm.Int64"
+		},
+		{
+			"Key": true,
+			"_Name": "Point",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Equipment",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FuncLocID",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "MyRoutePoint"
+}

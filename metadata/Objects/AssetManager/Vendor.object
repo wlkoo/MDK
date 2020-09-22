@@ -1,0 +1,56 @@
+{
+	"Collection": [
+		"Vendors"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "Address_Nav",
+			"_Type": "Address"
+		},
+		{
+			"Key": false,
+			"_Name": "VendorCompanyData_Nav",
+			"_Type": "Collection(VendorCompanyData)"
+		},
+		{
+			"Key": false,
+			"_Name": "VendorPurchaseOrgData_Nav",
+			"_Type": "Collection(VendorPurchaseOrgData)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": false,
+			"_Name": "PurchaseBlock",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PostingBlock",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "Vendor",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AddressNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Name1",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PartnerNum",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "Vendor"
+}

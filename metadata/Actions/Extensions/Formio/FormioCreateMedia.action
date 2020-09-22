@@ -1,0 +1,26 @@
+{
+	"IsOnlineRequest": false,
+	"Media": "/SAPAssetManager/Rules/Extensions/Formio/FormioGetData.js",
+	"Headers" : {
+		"slug" : {
+			"Uuid": "/SAPAssetManager/Rules/Extensions/Formio/FormioGenerateRandomUuid.js",
+			"ObjectType": "ORI",
+			"ObjectKey": "{ObjectKey}",
+			"FormUuid": "/SAPAssetManager/Rules/Extensions/Formio/FormioGetSelectedFormUuid.js"
+		},
+		"OfflineOData.RemoveAfterUpload": "true"
+	},
+	"Properties": {
+		"LocalUuid": "/SAPAssetManager/Rules/Extensions/Formio/FormioGenerateUuid.js",
+		"Uuid": "/SAPAssetManager/Rules/Extensions/Formio/FormioGenerateRandomUuid.js",
+		"ObjectType": "ORI",
+		"ObjectKey": "{ObjectKey}",
+		"FormUuid": "/SAPAssetManager/Rules/Extensions/Formio/FormioGetSelectedFormUuid.js",
+		"CreatedAt": "/SAPAssetManager/Rules/Extensions/Formio/FormioGetCreatedAt.js"
+	},
+	"Target": {
+		"EntitySet": "ZEQ_FORMIO_MEDIA",
+		"Service": "/SAPAssetManager/Services/Formio.service"
+	},
+	"_Type": "Action.Type.ODataService.CreateMedia"
+}

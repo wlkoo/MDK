@@ -1,0 +1,36 @@
+{
+	"Collection": [
+		"Regions"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "Addresses_Nav",
+			"_Type": "Collection(Address)"
+		},
+		{
+			"Key": false,
+			"_Name": "Country_Nav",
+			"_Type": "Country"
+		}
+	],
+	"Properties": [
+		{
+			"Key": false,
+			"_Name": "Description",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "Country",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "Region",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "Region"
+}

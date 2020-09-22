@@ -1,0 +1,86 @@
+{
+	"Collection": [
+		"PartnerDetProcs"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "OrderTypePartner_Nav",
+			"_Type": "OrderTypePartner"
+		},
+		{
+			"Key": false,
+			"_Name": "PartnerFunction_Nav",
+			"_Type": "PartnerFunction"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "OrderType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OrderText",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PartnerDeterminationProcedure",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PartnerIsMandatory",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PartnerDetAtEnd",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "NoChangePossible",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OriginTable",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MaintainAppointments",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IsUnique",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PartnerDeterminationDescription",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Sequence",
+			"_Type": "Edm.Int16"
+		},
+		{
+			"Key": true,
+			"_Name": "PartnerFunction",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SourceFunction",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "PartnerDetProc"
+}

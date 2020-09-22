@@ -1,0 +1,86 @@
+{
+	"Collection": [
+		"AnswerOptions"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "AnswerHeader_Nav",
+			"_Type": "AnswerHeader"
+		},
+		{
+			"Key": false,
+			"_Name": "AssessmentQuestion_Nav",
+			"_Type": "Collection(FormAssessmentQuestion)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": false,
+			"_Name": "SortNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "OptionID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "AnswerId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DisplayId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "HasDependentObjects",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IsSelected",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "LongDescription",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ScaleDimension",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ShortDescription",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "UoM",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Value1",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Value2",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Weightage",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"_Name": "AnswerOption"
+}

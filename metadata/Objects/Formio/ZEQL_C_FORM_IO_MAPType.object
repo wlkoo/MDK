@@ -1,0 +1,56 @@
+{
+	"Collection": [
+		"ZEQL_C_FORM_IO_MAP"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "to_FormIo",
+			"_Type": "ZEQL_C_FORM_IOType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_MasterForm",
+			"_Type": "ZEQL_C_MASTERFORMType"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "Uuid",
+			"_Type": "Edm.Guid"
+		},
+		{
+			"Key": false,
+			"_Name": "MasterFormUuid",
+			"_Type": "Edm.Guid"
+		},
+		{
+			"Key": false,
+			"_Name": "FormUuid",
+			"_Type": "Edm.Guid"
+		},
+		{
+			"Key": false,
+			"_Name": "ObjectType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "UiFieldKey",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "JsonTag",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TargetFieldName",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/Formio.service",
+	"_Name": "ZEQL_C_FORM_IO_MAPType"
+}

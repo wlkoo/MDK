@@ -1,0 +1,14 @@
+{
+	"Caption": "Webview sample",
+	"Controls": [
+		{
+			"Class": "WebviewExtension",
+			"Control": "WebviewExtension",
+			"Module": "extension-Webview",
+			"_Name": "WebviewRendererControl",
+			"_Type": "Control.Type.Extension"
+		}
+	],
+	"_Name": "WebviewRenderer",
+	"_Type": "Page"
+}

@@ -1,0 +1,19 @@
+{
+	"Collection": [
+		"ZEQL_C_FORMIOOBJECTTYPE"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "ObjectType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "EntitySet",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/Formio.service",
+	"_Name": "ZEQL_C_FORMIOOBJECTTYPEType"
+}

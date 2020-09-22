@@ -1,0 +1,236 @@
+{
+	"Collection": [
+		"MyNotificationHeaders"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "Activities",
+			"_Type": "Collection(MyNotificationActivity)"
+		},
+		{
+			"Key": false,
+			"_Name": "Address",
+			"_Type": "Address"
+		},
+		{
+			"Key": false,
+			"_Name": "Equipment",
+			"_Type": "MyEquipment"
+		},
+		{
+			"Key": false,
+			"_Name": "FunctionalLocation",
+			"_Type": "MyFunctionalLocation"
+		},
+		{
+			"Key": false,
+			"_Name": "HeaderLongText",
+			"_Type": "Collection(MyNotifHeaderLongText)"
+		},
+		{
+			"Key": false,
+			"_Name": "Items",
+			"_Type": "Collection(MyNotificationItem)"
+		},
+		{
+			"Key": false,
+			"_Name": "MobileStatus",
+			"_Type": "MobileStatus"
+		},
+		{
+			"Key": false,
+			"_Name": "NotifDocuments",
+			"_Type": "Collection(MyNotifDocument)"
+		},
+		{
+			"Key": false,
+			"_Name": "NotifGeometries",
+			"_Type": "Collection(MyNotifGeometry)"
+		},
+		{
+			"Key": false,
+			"_Name": "NotifHistory_Nav",
+			"_Type": "Collection(NotificationHistory)"
+		},
+		{
+			"Key": false,
+			"_Name": "NotifPriority",
+			"_Type": "Priority"
+		},
+		{
+			"Key": false,
+			"_Name": "Partners",
+			"_Type": "Collection(MyNotificationPartner)"
+		},
+		{
+			"Key": false,
+			"_Name": "Sales_Nav",
+			"_Type": "MyNotificationSales"
+		},
+		{
+			"Key": false,
+			"_Name": "Tasks",
+			"_Type": "Collection(MyNotificationTask)"
+		},
+		{
+			"Key": false,
+			"_Name": "WorkOrder",
+			"_Type": "MyWorkOrderHeader"
+		}
+	],
+	"Properties": [
+		{
+			"Key": false,
+			"_Name": "ExternalWorkCenterId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PriorityType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ReportedBy",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ObjectKey",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "LogicalSystem",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "NotificationType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "NotificationDescription",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OrderCurrency",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ControllingArea",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MainWorkCenter",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MainWorkCenterPlant",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Priority",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ObjectNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DateForCompletion",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "LastChangeTime",
+			"_Type": "Edm.Time"
+		},
+		{
+			"Key": false,
+			"_Name": "RequiredStartDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "RequiredEndDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": true,
+			"_Name": "NotificationNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CreationDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "OrderId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CreationTime",
+			"_Type": "Edm.Time"
+		},
+		{
+			"Key": false,
+			"_Name": "BreakdownIndicator",
+			"_Type": "Edm.Boolean"
+		},
+		{
+			"Key": false,
+			"_Name": "AddressNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "HeaderEquipment",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "HeaderFunctionLocation",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SortField",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PlanningPlant",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PlanningGroup",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MaintenancePlant",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "BusinessArea",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"_Name": "MyNotificationHeader"
+}

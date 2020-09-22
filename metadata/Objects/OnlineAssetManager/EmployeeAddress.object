@@ -1,0 +1,76 @@
+{
+	"Collection": [
+		"EmployeeAddresses"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "Employee_Nav",
+			"_Type": "Employee"
+		}
+	],
+	"Properties": [
+		{
+			"Key": false,
+			"_Name": "District",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "PersonnelNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "SequenceNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CareOfName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Street",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "AddressType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Country",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "City",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "HouseNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Building",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Floor",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PostalCode",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"_Name": "EmployeeAddress"
+}

@@ -1,0 +1,56 @@
+{
+	"Collection": [
+		"AssetCentralObjectLinks"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "Equipment_Nav",
+			"_Type": "MyEquipment"
+		},
+		{
+			"Key": false,
+			"_Name": "ObjectAssessment_Nav",
+			"_Type": "Collection(ObjectFormAssessment)"
+		},
+		{
+			"Key": false,
+			"_Name": "ObjectFormCategory_Nav",
+			"_Type": "Collection(ObjectFormCategory)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "AINObjectId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "EquipId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FuncLocIdIntern",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AINObjectType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "EAMObjectId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "EAMObjectType",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "AssetCentralObjectLink"
+}

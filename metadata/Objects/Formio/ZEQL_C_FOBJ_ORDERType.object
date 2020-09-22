@@ -1,0 +1,36 @@
+{
+	"Collection": [
+		"ZEQL_C_FOBJ_ORDER"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "to_FormAssign",
+			"_Type": "Collection(ZEQL_C_FORMIOASSIGNType)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "ObjectType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "ObjectKey",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OrderNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Description",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/Formio.service",
+	"_Name": "ZEQL_C_FOBJ_ORDERType"
+}

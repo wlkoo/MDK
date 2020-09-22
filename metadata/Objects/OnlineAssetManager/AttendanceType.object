@@ -1,0 +1,49 @@
+{
+	"Collection": [
+		"AttendanceTypes"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "PersonnelSubarea",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MaxDuration",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MinDuration",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "AttendanceType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "PersonnelArea",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "PersonnelSubareaGrouping",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AttendanceTypeText",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IsNonWorking",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"_Name": "AttendanceType"
+}

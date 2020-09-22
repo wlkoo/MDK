@@ -1,0 +1,31 @@
+{
+	"Collection": [
+		"FileExtensions"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "Document_Nav",
+			"_Type": "Collection(Document)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "Type",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Extension",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Description",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"_Name": "FileExtension"
+}

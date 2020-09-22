@@ -1,0 +1,101 @@
+{
+	"Collection": [
+		"MyWorkOrderPartners"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "AddressAtWork_Nav",
+			"_Type": "AddressAtWork"
+		},
+		{
+			"Key": false,
+			"_Name": "Address_Nav",
+			"_Type": "Address"
+		},
+		{
+			"Key": false,
+			"_Name": "Employee_Nav",
+			"_Type": "Employee"
+		},
+		{
+			"Key": false,
+			"_Name": "PartnerFunction_Nav",
+			"_Type": "PartnerFunction"
+		},
+		{
+			"Key": false,
+			"_Name": "WorkOrderHeader",
+			"_Type": "MyWorkOrderHeader"
+		}
+	],
+	"Properties": [
+		{
+			"Key": false,
+			"_Name": "ObjectNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ObjectCategory",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "Counter",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PersonnelNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OneTimeAddress",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "OrderId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "PartnerFunction",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AddressNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Partner",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PersonNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "BPNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "NewPartner",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OldPartner",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "MyWorkOrderPartner"
+}

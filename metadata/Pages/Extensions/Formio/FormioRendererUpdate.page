@@ -1,0 +1,23 @@
+{
+	"Caption": "$(L,form_title)",
+	"Controls": [
+		{
+			"Class": "FormioExtension",
+			"Control": "FormioExtension",
+			"ExtensionProperties": {
+				"ViewConfig": {
+					"Formio": {
+						"SubmissionData": ""
+					},
+                    "OnSubmission": "/SAPAssetManager/Rules/Extensions/Formio/FormioUpdateForm.js",
+					"OnDelete": "/SAPAssetManager/Rules/Extensions/Formio/FormioDeleteSetNav.js"
+				}
+			},
+			"Module": "extension-Formio",
+			"_Name": "FormioRendererControl",
+			"_Type": "Control.Type.Extension"
+		}
+	],
+	"_Name": "FormioRendererUpdate",
+	"_Type": "Page"
+}

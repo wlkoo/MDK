@@ -1,0 +1,51 @@
+{
+	"Collection": [
+		"MyEquipSystemStatuses"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "Equipment_Nav",
+			"_Type": "MyEquipment"
+		},
+		{
+			"Key": false,
+			"_Name": "SystemStatus_Nav",
+			"_Type": "SystemStatus"
+		}
+	],
+	"Properties": [
+		{
+			"Key": false,
+			"_Name": "StatusInact",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "ObjectNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SequencePosition",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SequencePriority",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "Status",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "EquipId",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "MyEquipSystemStatus"
+}

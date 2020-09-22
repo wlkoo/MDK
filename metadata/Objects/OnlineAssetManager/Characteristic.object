@@ -1,0 +1,126 @@
+{
+	"Collection": [
+		"Characteristics"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "CharacteristicValues",
+			"_Type": "Collection(ClassCharacteristicValue)"
+		},
+		{
+			"Key": false,
+			"_Name": "ClassCharacteristics",
+			"_Type": "Collection(ClassCharacteristic)"
+		},
+		{
+			"Key": false,
+			"_Name": "EquiClassCharValue",
+			"_Type": "Collection(MyEquipClassCharValue)"
+		},
+		{
+			"Key": false,
+			"_Name": "FuncLocClassCharValue",
+			"_Type": "Collection(MyFuncLocClassCharValue)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": false,
+			"_Name": "UoMExt",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TableName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Template",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "CharId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IntCounter",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AdditionalVal",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CaseSensitive",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CharDesc",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CharName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DataType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "EntryRequired",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FieldName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IntValueAllow",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SingleValue",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ValueSign",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Exponent",
+			"_Type": "Edm.Int16"
+		},
+		{
+			"Key": false,
+			"_Name": "NumofChar",
+			"_Type": "Edm.Int16"
+		},
+		{
+			"Key": false,
+			"_Name": "NumofDecimal",
+			"_Type": "Edm.Int16"
+		},
+		{
+			"Key": false,
+			"_Name": "UoM",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"_Name": "Characteristic"
+}

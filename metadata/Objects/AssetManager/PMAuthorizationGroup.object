@@ -1,0 +1,19 @@
+{
+	"Collection": [
+		"PMAuthorizationGroups"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "AuthorizationGroup",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AuthGroupText",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "PMAuthorizationGroup"
+}

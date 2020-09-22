@@ -1,0 +1,131 @@
+{
+	"Collection": [
+		"AddressesAtWork"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "AddressAtWorkComm",
+			"_Type": "Collection(AddressAtWorkComm)"
+		},
+		{
+			"Key": false,
+			"_Name": "EquipPartner_Nav",
+			"_Type": "Collection(MyEquipPartner)"
+		},
+		{
+			"Key": false,
+			"_Name": "FuncLocPartner_Nav",
+			"_Type": "Collection(MyFuncLocPartner)"
+		},
+		{
+			"Key": false,
+			"_Name": "NotificationPartner",
+			"_Type": "Collection(MyNotificationPartner)"
+		},
+		{
+			"Key": false,
+			"_Name": "SAPUser_Nav",
+			"_Type": "Collection(SAPUser)"
+		},
+		{
+			"Key": false,
+			"_Name": "WorkOrderPartner",
+			"_Type": "Collection(MyWorkOrderPartner)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": false,
+			"_Name": "Country",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Building",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "City",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Floor",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "HouseNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Name",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PostalCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Region",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "RoomNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Street",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PersonalAddress",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Function",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Department",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FirstName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "LastName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "AddressNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "PersonNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CountryVersionFlag",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "AddressAtWork"
+}

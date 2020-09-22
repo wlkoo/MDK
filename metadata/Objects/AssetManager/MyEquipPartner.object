@@ -1,0 +1,86 @@
+{
+	"Collection": [
+		"MyEquipPartners"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "AddressAtWork_Nav",
+			"_Type": "AddressAtWork"
+		},
+		{
+			"Key": false,
+			"_Name": "Address_Nav",
+			"_Type": "Address"
+		},
+		{
+			"Key": false,
+			"_Name": "Employee_Nav",
+			"_Type": "Employee"
+		},
+		{
+			"Key": false,
+			"_Name": "Equipment",
+			"_Type": "MyEquipment"
+		},
+		{
+			"Key": false,
+			"_Name": "PartnerFunction_Nav",
+			"_Type": "PartnerFunction"
+		}
+	],
+	"Properties": [
+		{
+			"Key": false,
+			"_Name": "PersonnelNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "EquipId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "PartnerFunction",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "Counter",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AddressNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ObjectCategory",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ObjectNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PartnerNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "BPNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PersonNum",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "MyEquipPartner"
+}

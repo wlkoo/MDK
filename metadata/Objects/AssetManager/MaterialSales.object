@@ -1,0 +1,36 @@
+{
+	"Collection": [
+		"MaterialSales"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "Material_Nav",
+			"_Type": "Material"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "MaterialNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "SalesOrg",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "DistributionChannel",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ItemCategoryGoup",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "MaterialSales"
+}

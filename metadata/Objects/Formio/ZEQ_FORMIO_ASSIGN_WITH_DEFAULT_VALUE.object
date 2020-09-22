@@ -1,0 +1,29 @@
+{
+	"Collection": [
+		"ZEQ_FORMIO_ASSIGN_WITH_DEFAULT_VALUE"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "ObjectType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "ObjectKey",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "FormUuid",
+			"_Type": "Edm.Guid"
+		},
+		{
+			"Key": false,
+			"_Name": "FormData",
+			"_Type": "Edm.Binary"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/Formio.service",
+	"_Name": "ZEQ_FORMIO_ASSIGN_WITH_DEFAULT_VALUE"
+}

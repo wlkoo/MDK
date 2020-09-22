@@ -1,0 +1,6 @@
+{
+  "AppName": "AssetManager",
+  "AppVersion": "1911.0.0",
+  "BundleID": "com.sap.mobile.apps.assetmanager.release",
+  "UrlScheme": "samclient"
+}

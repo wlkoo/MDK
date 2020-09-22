@@ -1,0 +1,58 @@
+{
+	"ActionBar": {
+		"Items": [
+			{
+				"Position": "right",
+				"Icon": "/SAPAssetManager/Rules/Common/Platform/FilterIcon.js",
+				"Text": "$(L,filter)",
+				"OnPress": "/SAPAssetManager/Actions/Extensions/Formio/FormioFilter.action",
+				"Visible": false
+			}
+		]
+	},
+	"Caption": "Forms - Pending Submission",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Search":{
+						"Enabled" : true,
+						"Delay": 500,
+						"MinimumCharacterThreshold": 3,
+						"Placeholder": "$(L,search)",
+						"BarcodeScanner": true
+					},
+					"Header": {
+						"UseTopPadding": false
+					},
+					"EmptySection": {
+						"Caption": "No forms available"
+					},
+					"ObjectCell": {
+						"AccessoryType": "none",
+						"DetailImageIsCircular": false,
+						"Footnote": "{CreatedBy}",
+						"PreserveIconStackSpacing": true,
+						"StatusText": "/SAPAssetManager/Rules/Extensions/Formio/FormioListPendingViewGetStatusText.js",
+						"Subhead": "{ObjectKey}",
+						"Title": "/SAPAssetManager/Rules/Extensions/Formio/FormioListViewGetTitle.js",
+						"OnPress": "/SAPAssetManager/Rules/Extensions/Formio/FormioUpdateSetNav.js"
+					},
+					"Target": {
+						"EntitySet": "ZEQ_FORMIO_MEDIA",
+						"Service": "/SAPAssetManager/Services/Formio.service",
+						"QueryOptions": "/SAPAssetManager/Rules/Extensions/Formio/FormioListPendingViewQueryOptions.js"
+					},
+				 
+					"Visible": true,
+					"_Name": "SectionObjectTable0",
+					"_Type": "Section.Type.ObjectTable"
+				}
+			],
+			"_Name": "SectionedTable",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "FormioListPending",
+	"_Type": "Page"
+}

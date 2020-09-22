@@ -1,0 +1,41 @@
+{
+	"Collection": [
+		"NotificationHistoryTexts"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "NotifHistory_Nav",
+			"_Type": "NotificationHistory"
+		}
+	],
+	"Properties": [
+		{
+			"Key": false,
+			"_Name": "TextString",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TextObjectType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TextId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ObjectKey",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "NotificationNumber",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "NotificationHistoryText"
+}

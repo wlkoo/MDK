@@ -1,0 +1,18 @@
+{	
+	"Headers": {
+		"OfflineOData.RemoveAfterUpload": "true"
+	},
+	"Properties": {
+		"ObjectId": "/SAPAssetManager/Rules/WorkOrders/CreateUpdate/WorkOrderLocalID.js",
+		"ObjectType": "ORI",
+		"Uuid": "#Page:WorkOrderCreateUpdatePage/#Control:FormUuid/#Value",
+		"LocalUuid": "/SAPAssetManager/Rules/Extensions/Formio/FormioGenerateRandomUuid.js",
+		"FormUuid": "/SAPAssetManager/Rules/Extensions/Formio/FormioGetSelectedFormUuid.js"
+	},
+	"Target": {
+		"EntitySet": "ZEQ_FORMIODATA_C",
+		"Service": "/SAPAssetManager/Services/Formio.service"
+	},
+	"ShowActivityIndicator": true,
+	"_Type": "Action.Type.ODataService.CreateEntity"
+}

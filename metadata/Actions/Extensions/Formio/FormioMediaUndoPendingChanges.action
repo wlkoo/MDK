@@ -1,0 +1,8 @@
+{
+    "Target": {
+      "EntitySet": "ZEQ_FORMIO_MEDIA",
+      "Service": "/SAPAssetManager/Services/Formio.service",
+      "EditLink": "{FormioEditLink}"
+    },
+    "_Type": "Action.Type.OfflineOData.UndoPendingChanges"
+}

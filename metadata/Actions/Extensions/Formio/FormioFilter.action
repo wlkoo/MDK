@@ -1,0 +1,9 @@
+{
+    "_Type" : "Action.Type.Filter",
+    "PageToOpen" : "/SAPAssetManager/Pages/Extensions/Formio/FormioFilter.page",
+    "Filterable" : "#Page:FormioList/#Control:SectionedTable",
+    "OnSuccess": "/SAPAssetManager/Rules/Extensions/Formio/FormioFilterOnSuccess.js",
+    "ActionResult": {
+        "_Name": "filterResult"
+     }
+}

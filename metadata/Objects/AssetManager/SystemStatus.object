@@ -1,0 +1,51 @@
+{
+	"Collection": [
+		"SystemStatuses"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "MyEquipObjectStatuses_Nav",
+			"_Type": "Collection(MyEquipObjectStatus)"
+		},
+		{
+			"Key": false,
+			"_Name": "MyEquipSystemStatuses_Nav",
+			"_Type": "Collection(MyEquipSystemStatus)"
+		},
+		{
+			"Key": false,
+			"_Name": "MyFuncLocObjectStatuses_Nav",
+			"_Type": "Collection(MyFuncLocObjectStatus)"
+		},
+		{
+			"Key": false,
+			"_Name": "MyFuncLocSystemStatuses_Nav",
+			"_Type": "Collection(MyFuncLocSystemStatus)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "SystemStatus",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Status",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "StatusText",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Language",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "SystemStatus"
+}

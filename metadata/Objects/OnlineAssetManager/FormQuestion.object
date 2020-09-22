@@ -1,0 +1,91 @@
+{
+	"Collection": [
+		"FormQuestions"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "AnswerHeader_Nav",
+			"_Type": "AnswerHeader"
+		},
+		{
+			"Key": false,
+			"_Name": "AssessmentQuestions_Nav",
+			"_Type": "Collection(FormAssessmentQuestion)"
+		},
+		{
+			"Key": false,
+			"_Name": "TemplateQuestions_Nav",
+			"_Type": "Collection(FormTemplateQuestion)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "QuestionId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DisplayId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "HasDependentObjects",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "LongDescription",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MaxScaleOptionsValue",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MinScaleOptionsValue",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OrganizationName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AnswerId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ScaleOptionCount",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ShortDescription",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Status",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "QuestionText",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "QuestionDesc",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"_Name": "FormQuestion"
+}

@@ -1,0 +1,55 @@
+{
+	"ActionBar": {
+		"Items": [
+			{
+				"Position": "right",
+				"Icon": "/SAPAssetManager/Rules/Common/Platform/FilterIcon.js",
+				"Text": "$(L,filter)",
+				"OnPress": "/SAPAssetManager/Actions/Extensions/Formio/FormioFilter.action",
+				"Visible": false
+			}
+		]
+	},
+	"Caption": "Forms",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Search":{
+						"Enabled" : true,
+						"Delay": 500,
+						"MinimumCharacterThreshold": 3,
+						"Placeholder": "$(L,search)",
+						"BarcodeScanner": true
+					},
+					"Header": {
+						"UseTopPadding": false
+					},
+					"EmptySection": {
+						"Caption": "No forms available"
+					},
+					"ObjectCell": {
+						"AccessoryType": "none",
+						"DetailImageIsCircular": false,
+						"PreserveIconStackSpacing": true,
+						"Subhead": "/SAPAssetManager/Rules/Extensions/Formio/FormioGetVersion.js",
+						"Title": "{Name}",
+						"OnPress": "/SAPAssetManager/Rules/Extensions/Formio/FormioCreateSetNav.js"
+					},
+					"Target": {
+						"EntitySet": "ZEQL_C_FORMIO",
+						"QueryOptions": "/SAPAssetManager/Rules/Extensions/Formio/FormioSelectionListViewQueryOptions.js",
+						"Service": "/SAPAssetManager/Services/Formio.service"
+					},
+					"Visible": true,
+					"_Name": "SectionObjectTable0",
+					"_Type": "Section.Type.ObjectTable"
+				}
+			],
+			"_Name": "SectionedTable",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "FormioSelectionListPage",
+	"_Type": "Page"
+}

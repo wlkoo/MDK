@@ -1,0 +1,56 @@
+{
+	"Collection": [
+		"FormBusObjects"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "AssessmentQuestion_Nav",
+			"_Type": "Collection(FormAssessmentQuestion)"
+		},
+		{
+			"Key": false,
+			"_Name": "Assessment_Nav",
+			"_Type": "ObjectFormAssessment"
+		},
+		{
+			"Key": false,
+			"_Name": "Form_Nav",
+			"_Type": "Form"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "AssessmentId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FormId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DisplayId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TemplateId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ObjectId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ObjectType",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"_Name": "FormBusObject"
+}

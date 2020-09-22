@@ -1,0 +1,51 @@
+{
+	"Collection": [
+		"ClassDefinitions"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "ClassCharacteristics",
+			"_Type": "Collection(ClassCharacteristic)"
+		},
+		{
+			"Key": false,
+			"_Name": "EquipClass",
+			"_Type": "MyEquipClass"
+		},
+		{
+			"Key": false,
+			"_Name": "FuncLocClass",
+			"_Type": "MyFuncLocClass"
+		}
+	],
+	"Properties": [
+		{
+			"Key": false,
+			"_Name": "ClassType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "InternClassNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ClassDesc",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ClassId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ClassStatus",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "ClassDefinition"
+}

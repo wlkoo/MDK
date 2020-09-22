@@ -1,0 +1,26 @@
+{
+	"Collection": [
+		"ZEQL_C_MASTERFORM_VH"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "to_FormVH",
+			"_Type": "Collection(ZEQL_C_FORMIO_VHType)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "Uuid",
+			"_Type": "Edm.Guid"
+		},
+		{
+			"Key": false,
+			"_Name": "Name",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/Formio.service",
+	"_Name": "ZEQL_C_MASTERFORM_VHType"
+}

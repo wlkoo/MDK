@@ -1,0 +1,46 @@
+{
+	"Collection": [
+		"MyRoutes"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "Stops",
+			"_Type": "Collection(MyRouteStop)"
+		},
+		{
+			"Key": false,
+			"_Name": "WorkOrder",
+			"_Type": "MyWorkOrderHeader"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "RouteID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Description",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ReferenceID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Status",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ReferenceType",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "MyRoute"
+}

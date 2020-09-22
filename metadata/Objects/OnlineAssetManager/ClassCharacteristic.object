@@ -1,0 +1,41 @@
+{
+	"Collection": [
+		"ClassCharacteristics"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "Characteristic",
+			"_Type": "Characteristic"
+		},
+		{
+			"Key": false,
+			"_Name": "ClassDefinition",
+			"_Type": "ClassDefinition"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "IntCounter",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "InternClassNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "ItemId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "InternCharNum",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"_Name": "ClassCharacteristic"
+}

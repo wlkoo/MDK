@@ -1,0 +1,30 @@
+{
+	"ActionResult": {
+		"_Name": "result"
+	},
+	"DefiningRequests": [
+		{
+			"AutomaticallyRetrievesStreams": false,
+			"Name": "ZEQL_C_FORMIO",
+			"Query": "ZEQL_C_FORMIO"
+		},
+		{
+			"AutomaticallyRetrievesStreams": false,
+			"Name": "ZEQ_FORMIODATA_C",
+			"Query": "ZEQ_FORMIODATA_C"
+		},
+		{
+			"AutomaticallyRetrievesStreams": false,
+			"Name": "ZEQL_C_FORMIOASSIGN",
+			"Query": "ZEQL_C_FORMIOASSIGN"
+		},
+		{
+			"AutomaticallyRetrievesStreams": false,
+			"Name": "ZEQL_C_FORMIOMAP",
+			"Query": "ZEQL_C_FORMIOMAP"
+		}
+	],
+	"OnFailure": "/SAPAssetManager/Actions/Extensions/Formio/InitializeOfflineFailureMessage.action",
+	"Service": "/SAPAssetManager/Services/Formio.service",
+	"_Type": "Action.Type.OfflineOData.Initialize"
+}

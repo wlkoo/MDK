@@ -1,0 +1,76 @@
+{
+	"Collection": [
+		"AddressesAtWorkComm"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "AddressAtWork",
+			"_Type": "AddressAtWork"
+		}
+	],
+	"Properties": [
+		{
+			"Key": false,
+			"_Name": "EMail",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "PersonNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "AddressNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TelNumberLong",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TelNumberCall",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "CommType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "SequenceNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Country",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Default",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TelNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TelExtension",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PreferTelType",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"_Name": "AddressAtWorkComm"
+}

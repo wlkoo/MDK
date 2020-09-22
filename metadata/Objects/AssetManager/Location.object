@@ -1,0 +1,41 @@
+{
+	"Collection": [
+		"Locations"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "MyEquipments_Nav",
+			"_Type": "Collection(MyEquipment)"
+		},
+		{
+			"Key": false,
+			"_Name": "MyFunctionalLocations_Nav",
+			"_Type": "Collection(MyFunctionalLocation)"
+		},
+		{
+			"Key": false,
+			"_Name": "Plant_Nav",
+			"_Type": "Plant"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "Plant",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "Location",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "LocationName",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "Location"
+}

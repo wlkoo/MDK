@@ -1,0 +1,66 @@
+{
+	"Collection": [
+		"WorkCenters"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "MyEquipments_Main_Nav",
+			"_Type": "Collection(MyEquipment)"
+		},
+		{
+			"Key": false,
+			"_Name": "MyEquipments_Nav",
+			"_Type": "Collection(MyEquipment)"
+		},
+		{
+			"Key": false,
+			"_Name": "MyFunctionalLocations_Main_Nav",
+			"_Type": "Collection(MyFunctionalLocation)"
+		},
+		{
+			"Key": false,
+			"_Name": "MyFunctionalLocations_Nav",
+			"_Type": "Collection(MyFunctionalLocation)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "ObjectType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "WorkCenterId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ExternalWorkCenterId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "WorkCenterName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "WorkCenterDescr",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PlantId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CostCenter",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "WorkCenter"
+}

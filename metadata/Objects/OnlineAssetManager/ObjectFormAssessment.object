@@ -1,0 +1,121 @@
+{
+	"Collection": [
+		"ObjectFormAssessments"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "AssessmentBusObject_Nav",
+			"_Type": "FormBusObject"
+		},
+		{
+			"Key": false,
+			"_Name": "Equipment_Nav",
+			"_Type": "MyEquipment"
+		},
+		{
+			"Key": false,
+			"_Name": "Form_Nav",
+			"_Type": "Form"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "AssessmentId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ObjectId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CalculationMethod",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FormId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DimensionWeightage",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DisplayId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ImpactWeightage",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IntentCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MatrixId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MatrixVersion",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PublishedBy",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PublishedDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "RiskColorCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "RiskType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "RiskTypeCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Status",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "StatusText",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "EquipId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FuncLocIdIntern",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"_Name": "ObjectFormAssessment"
+}

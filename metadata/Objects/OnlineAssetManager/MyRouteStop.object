@@ -1,0 +1,76 @@
+{
+	"Collection": [
+		"MyRouteStops"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "Address",
+			"_Type": "Address"
+		},
+		{
+			"Key": false,
+			"_Name": "Equipment",
+			"_Type": "MyEquipment"
+		},
+		{
+			"Key": false,
+			"_Name": "FuncLoc",
+			"_Type": "MyFunctionalLocation"
+		},
+		{
+			"Key": false,
+			"_Name": "Operation",
+			"_Type": "MyWorkOrderOperation"
+		},
+		{
+			"Key": false,
+			"_Name": "Points",
+			"_Type": "Collection(MyRoutePoint)"
+		},
+		{
+			"Key": false,
+			"_Name": "Route",
+			"_Type": "MyRoute"
+		},
+		{
+			"Key": false,
+			"_Name": "TechObjects",
+			"_Type": "Collection(MyTechObject)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "RouteID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "StopID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Description",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Status",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AddressNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "StopLocation",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"_Name": "MyRouteStop"
+}
